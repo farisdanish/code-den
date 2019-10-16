@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.about-section{
+	overflow: hidden;
+	text-align: center;
+	background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../6.jpg) no-repeat center center fixed;
+	background-size: cover;
+	padding: 60px;
+}
+
+.about-section h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+
+.border{
+	display: block;
+	margin:auto;
+	width:160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+
+.ps{
+	margin-bottom: 40px;
+}
+
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+}
+
+.ps a:hover > img{
+	filter: none;
+}
+
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color:white;
+	text-align: justify;
+}
+
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.box{
+	text-align: center;
+	margin: auto;
+	margin-top: auto;
+}
+
+.box ul{
+	margin:0;
+	padding:0;
+}
+
+.box li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 55px;
+	transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+	color: #b9b9b9;
+}
+
+/*CSS for navigation bar start*/
+.main ul {
+  list-style-type: none;
+	position:fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	width:100%;
+}
+.main ul li{
+	display: inline-block;	
+}
+
+.main ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+.main ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.main ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.main li a{
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.main li a:hover {
+  background-color: #111;
+}
+/*nav bar css end*/
